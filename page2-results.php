@@ -26,8 +26,15 @@
 
         <div class="row mt-3 mb-4">
             <div class="col-12">
+				
             
 				<p>Form results here</p>
+				<?php 
+					foreach ($_POST as $index => $value) {
+						?>
+						<p><?php echo $index; ?> = <?php echo $value;?></p>
+				<?php	}
+				?>
 				
 			</div>
 		</div><!-- row -->
