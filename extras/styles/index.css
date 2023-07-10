@@ -1,0 +1,43 @@
+.infoSection {
+    background-color: #1ABC9C;
+}
+
+.infoText {
+    font-weight: 300;
+}
+
+.firstTestBtn {
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+    color: #504f4f;
+}
+
+.firstTestBtn:hover,
+.firstTestBtn:active:focus {
+    background-color: #088E79 !important;
+    border-color: #088E79 !important;
+    color: white !important;
+}
+
+.title {
+    font-weight: bold;
+}
+
+#secondTitle {
+    color: #1ABC9C;
+}
+
+.secondTestBtn {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+    font-weight: bold;
+    color: white;
+}
+
+.secondTestBtn:hover,
+.secondTestBtn:active:focus {
+    background-color: #088E79 !important;
+    border-color: #088E79 !important;
+    color: white !important;
+}

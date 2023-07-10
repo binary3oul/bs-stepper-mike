@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="extras/styles/theme.min.css">
+    <link rel="stylesheet" href="extras/styles/bs-stepper.css">
+    
+    <link rel="stylesheet" href="extras/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="extras/styles/font-awesome.min.css">
+    <link rel="stylesheet" href="extras/styles/index.css">
+    <link rel="stylesheet" href="extras/styles/main.css" type="text/css">
+    
+    <title>TEST | Lorem ipsum dolor sit amet</title>
+</head>
+
+<body>
+
+<main>
+	<div class="container"><!-- container -->
+        <header><!-- Header -->
+        <!--
+        -->
+            <img width="100%" src="extras/images/main_headerbg_sm.png" alt="Header Image">
+        </header>
+
+        <div class="row mt-3 mb-4">
+            <div class="col-12">
+				<div id="courseForm" class="bs-stepper"><!-- courseForm bs-stepper -->
+
+					<!-- Stepper content -->
+					<div class="bs-stepper-content">
+						<div class=" " role="tablist">
+							<div class="step" data-target="#test-l-1">
+								<div class="step-trigger visually-hidden" role="tab" id="courseFormtrigger1" aria-controls="test-l-1"></div>
+							</div>
+							<div class="step" data-target="#test-l-2">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger2" aria-controls="test-l-2"></button>
+							</div>
+							<div class="step" data-target="#test-l-3">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger3" aria-controls="test-l-3"></button>
+							</div>
+							<div class="step" data-target="#test-l-4">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger4" aria-controls="test-l-4"></button>
+							</div>
+							<div class="step" data-target="#test-l-5">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger5" aria-controls="test-l-5"></button>
+							</div>
+							<div class="step" data-target="#test-l-6">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger6" aria-controls="test-l-6"></button>
+							</div>
+							<div class="step" data-target="#test-l-7">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger7" aria-controls="test-l-7"></button>
+							</div>
+							<div class="step" data-target="#test-l-8">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger8" aria-controls="test-l-8"></button>
+							</div>
+							<div class="step" data-target="#test-l-9">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger9" aria-controls="test-l-9"></button>
+							</div>
+							<div class="step" data-target="#test-l-10">
+								<button type="button" class="step-trigger visually-hidden" role="tab" id="courseFormtrigger10" aria-controls="test-l-10"></button>
+							</div>
+						</div>
+				
+				
+						<form onSubmit="return false">
+				
+							<!-- Question 1 -->
+							<div id="test-l-1" role="tabpanel" class="bs-stepper-pane fade">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 1 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 1</span>
+											<h4 class="mb-3">Pellentesque habitant morbi tristique senectus?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio1_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio1_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio1_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio1_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio1_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio1_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio1_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio1_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio1_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio1_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="mt-3 d-flex justify-content-end">
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+
+								</div>
+							</div><!-- /Question 1 -->
+				  
+				  
+				  
+							<!-- Question 2 -->
+							<div id="test-l-2" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger2">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 2 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 2</span>
+											<h4 class="mb-3">Ante id blandit eleifend, velit tortor tempor lacus?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio2_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio2_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio2_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio2_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio2_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio2_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio2_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio2_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio2_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio2_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 2 -->
+				  
+				  
+				  
+							<!-- Question 3 -->
+							<div id="test-l-3" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger3">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 3 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 3</span>
+											<h4 class="mb-3">Cras laoreet lacus semper est?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio3_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio3_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio3_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio3_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio3_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio3_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio3_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio3_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio3_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio3_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 3 -->
+				  
+				  
+				  
+							<!-- Question 4 -->
+							<div id="test-l-4" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger4">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 4 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 4</span>
+											<h4 class="mb-3">Phasellus euismod nulla ut felis?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio4_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio4_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio4_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio4_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio4_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio4_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio4_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio4_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio4_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio4_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 4 -->
+				  
+				  
+				  
+							<!-- Question 5 -->
+							<div id="test-l-5" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger5">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 5 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 5</span>
+											<h4 class="mb-3">Curabitur egestas sagittis tellus quis ante suscipit?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio5_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio5_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio5_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio5_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio5_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio5_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio5_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio5_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio5_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio5_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 5 -->
+				  
+				  
+				  
+							<!-- Question 6 -->
+							<div id="test-l-6" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger6">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 6 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 6</span>
+											<h4 class="mb-3">Parturient montes nascetur ridiculus mus?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio6_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio6_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio6_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio6_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio6_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio6_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio6_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio6_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio6_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio6_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 6 -->
+				  
+				  
+				  
+							<!-- Question 7 -->
+							<div id="test-l-7" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger7">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 7 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 7</span>
+											<h4 class="mb-3">Fusce tortor dolor vestibulum vitae dictum a sollicitudin?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio7_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio7_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio7_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio7_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio7_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio7_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio7_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio7_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio7_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio7_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 7 -->
+				  
+				  
+				  
+							<!-- Question 8 -->
+							<div id="test-l-8" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger8">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 8 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 8</span>
+											<h4 class="mb-3">Sociis natoque penatibus et magnis dis?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio8_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio8_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio8_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio8_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio8_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio8_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio8_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio8_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio8_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio8_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 8 -->
+				  
+				  
+				  
+							<!-- Question 9 -->
+							<div id="test-l-9" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger9">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 9 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 9</span>
+											<h4 class="mb-3">In eu elit quis ante suscipit utrum?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio9_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio9_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio9_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio9_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio9_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio9_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio9_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio9_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio9_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio9_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Next <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 9 -->
+				  
+				  
+				  
+							<!-- Question 10 -->
+							<div id="test-l-10" role="tabpanel" class="bs-stepper-pane fade" aria-labelledby="courseFormtrigger10">
+								<!-- Card section -->
+								<div class="card mb-4">
+									<!-- Card body -->
+									<div class="card-body">
+										<!-- Progress -->
+										<div class="mt-3">
+											<div class="d-flex justify-content-between">
+												<span>Progress:</span>
+												<span> Question 10 out of 10</span>
+											</div>
+											<div class="mt-2">
+												<div class="progress" style="height: 6px;">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+												</div>
+											</div>
+										</div><!-- /Progress -->
+										<!-- Question -->
+										<div class="mt-5">
+											<span>Question 10</span>
+											<h4 class="mb-3">Tortor tempor lacus eget bibendum quam elit vel?</h4>
+											<!-- buttons -->
+											<div class="d-grid mb-2" role="group" aria-label="Basic radio toggle button group">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio10_1" value="1" checked="">
+												<label class="btn btn-outline-secondary text-start" for="btnradio10_1">Almost never like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio10_2" value="2">
+												<label class="btn btn-outline-secondary text-start" for="btnradio10_2">Occasionally like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio10_3" value="3">
+												<label class="btn btn-outline-secondary text-start" for="btnradio10_3">Moderately like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio10_4" value="4">
+												<label class="btn btn-outline-secondary text-start" for="btnradio10_4">Quite a bit like me</label>
+											</div>
+											<!-- buttons -->
+											<div class="d-grid mb-2">
+												<input type="radio" class="btn-check" name="btnradio" id="btnradio10_5" value="5">
+												<label class="btn btn-outline-secondary text-start" for="btnradio10_5">Almost always like me</label>
+											</div>
+										</div><!-- /Question -->
+									</div><!-- /Card body -->
+								</div><!-- /Card section -->
+								<!-- Button -->
+								<div class="d-flex justify-content-between">
+									<button class="btn btn-secondary mt-3 shadow-none px-3 py-2" onclick="courseForm.previous()">
+										<i class="fe fe-arrow-left"></i> Previous
+									</button>
+									<button class="btn btn-primary mt-3 shadow-none secondTestBtn px-3 py-2" onclick="courseForm.next()">
+										Score and View Results <i class="fe fe-arrow-right"></i>
+									</button>
+								</div>
+							</div><!-- /Question 10 -->
+				  
+				  
+				  
+
+
+
+
+						</form>
+					
+					</div><!-- /Stepper content -->
+				</div><!-- courseForm bs-stepper -->
+				
+			</div>
+		</div><!-- row -->
+		
+	</div><!-- /container -->
+</main>
+
+	<!-- Footer -->
+	<footer style="border-top: 2px solid grey;">
+		<div class="row pt-3">
+			<div class="col-12 text-center">
+				<p class="p-0 m-0">
+					<small style="color: grey;">
+						&copy;2023 Company Name. All Rights Reserved.<BR>
+						<img src="extras/images/logo.png" alt="Logo"><BR><BR>
+					</small>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="extras/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="extras/scripts/bootstrap.bundle.min.js"></script>
+
+	<script src="extras/scripts/bs-stepper.min.js"></script>
+	<script src="extras/scripts/beStepper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+body .container
+{
+    max-width: 780px;
+}
+
+.linkToHome {
+    text-decoration: underline;
+}
+
+.container-md {
+    width: 80%;
+}
+
+.custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow:none !important;
+}
+
+input {
+    min-height: 50px;
+}
+
+.btn {
+    font-weight: 200;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .container-md {
+        width: 100%;
+    }
+} 
+
+.text-blue {
+    color: #1ABC9C;
+}
+
+.text-primary {
+	color: #1ABC9C !important;
+}
+
+.small,
+small {
+ font-size:80%;
+ font-weight:400
+}
+
+@media print {
+    canvas{
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto !important;
+    width: auto !important;
+	padding-right: 1cm;
+    }
+}
+
+
+
+
+/*  Soften colors of badges on graph page */
+
+.badge-success {
+ color: #155724;
+ background-color: #d4edda;
+ border-color: #c3e6cb
+}
+
+.badge-warning {
+ color: #856404;
+ background-color: #fff3cd;
+ border-color: #ffeeba
+}
+
+.badge-danger {
+ color: #721c24;
+ background-color: #f8d7da;
+ border-color: #f5c6cb
+}
